@@ -13,7 +13,7 @@ export default function HomePageContent() {
   
   const services = [
     {
-      title: "Klemířství a pokrývačství",
+      title: "Klempířství a pokrývačství",
       description: "Kompletní řešení střech, \nkrytin a oplechování",
       icon: "🏠"
     },
@@ -230,7 +230,8 @@ export default function HomePageContent() {
         <div className="container mx-auto px-4 max-w-4xl text-center">
           <h2 className="md:text-4xl text-3xl font-bold font-serif text-primary bg-ring mb-6">
             O nás</h2>
-          <p className="text-foreground/80 leading-relaxed text-lg font-medium text-[#5f4c37] bg-radius text-justify md:text-center">Vítejte&nbsp;na stránkách naší tesařské firmy. Jsme dva společníci a&nbsp;podle potřeby s&nbsp;námi spolupracují další členové týmu.&nbsp;Zaměřujeme se&nbsp;na výrobu a&nbsp;montáž všech typů dřevěných konstrukcí a&nbsp;staveb. Nabízíme kompletní dodávku materiálu podle vašich požadavků, včetně možnosti použití impregnovaného řeziva. Součástí našich služeb je také realizace střech&nbsp;na klíč, včetně kompletního pokrytí, které zajišťujeme vlastními silami.</p>
+          <p className="text-foreground/80 leading-relaxed text-lg font-medium text-[#5f4c37] bg-radius text-justify md:text-center">Vítejte&nbsp;na stránkách naší tesařské firmy, která funguje od&nbsp;roku 2007. Zaměřujeme se&nbsp;na výrobu a&nbsp;montáž všech typů dřevěných konstrukcí a&nbsp;staveb a&nbsp;jejich kompletního pokrytí. Nabízíme zajištění dodávek veškerého materiálu podle Vašich požadavků od&nbsp;dřevěných dílů až&nbsp;po střešní krytinu a&nbsp;klempířské prvky. 
+V&nbsp;případě zájmu poskytujeme konzultace a&nbsp;poradenství, samozřejmostí jsou cenové nabídky zdarma.</p>
         </div>
       </section>
 
