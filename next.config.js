@@ -1,14 +1,15 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export', // Přidáno pro export do složky /out
   experimental: {
     turbopackFileSystemCacheForDev: true,
     browserDebugInfoInTerminal: true,
   },
   reactStrictMode: false,
   typescript: {
-    ignoreBuildErrors: true,
+    ignoreBuildErrors: true, // Toto pomůže, aby build neselhal na TS chybách
   },
-  images: { unoptimized: true },
+  images: { unoptimized: true }, // Už máte nastaveno, to je správně
   devIndicators: false,
   allowedDevOrigins: [
     "*.macaly.dev",
@@ -16,6 +17,7 @@ const nextConfig = {
     "*.macaly-app.com",
     "*.macaly-user-data.dev",
   ],
+  // ... zbytek vašeho nastavení (turbopack, webpack) zůstává stejný
   turbopack: {
     rules: {
       "*.{jsx,tsx}": {
